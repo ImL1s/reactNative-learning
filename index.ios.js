@@ -12,11 +12,15 @@ import {
   View
 } from 'react-native';
 var LoginView = require("./loginView");
+var LearnScrollView = require("./learnScrollView");
 
 export default class HelloWorld extends Component {
   render() {
     return (
-      <LoginView />
+      <View>
+      {/*<LoginView />*/}
+      <LearnScrollView />
+      </View>
     );
   }
 }
